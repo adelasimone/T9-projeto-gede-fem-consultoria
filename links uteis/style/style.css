@@ -28,3 +28,9 @@ li {
 .decoration {
     color: #000;
 }
+
+.tamanhoImg {
+    /* align-items: flex-end; */
+    width: 100px;
+    height: 100px;
+}
