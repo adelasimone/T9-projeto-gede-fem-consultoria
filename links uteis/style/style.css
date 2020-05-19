@@ -1,3 +1,4 @@
+/* Desktop first */
 
 * {
     font-family:'Roboto', sans-serif;
@@ -18,4 +19,12 @@ a:hover {
 .color-red {
     color: #fd0002;
     text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.decoration {
+    color: #000;
 }
