@@ -20,14 +20,12 @@ a:hover {
     color: #fd0002;
     text-decoration: none;
 }
-
+/* 
 li {
     list-style: none;
-}
+} */
 
-.decoration {
-    color: #000;
-}
+
 
 .tamanhoImg {
     /* align-items: flex-end; */
