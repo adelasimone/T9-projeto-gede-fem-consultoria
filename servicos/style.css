@@ -1,0 +1,39 @@
+/* design font  */
+* {
+    font-family:'Roboto', sans-serif;
+}
+ /* nav css */
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.color-red {
+    color: #fd0002;   
+    text-decoration: none;
+}
+
+.icon-size {
+    height: 5vh;
+}
+
+#menu-mobile {
+    display: none;
+}
+    
+/* nav responsiva */
+@media screen and (max-width: 775px) {
+    #menu-mobile {
+        display: flex;
+    }
+    #menu-desktop {
+        display: none;
+    }
+}
+
+.layout {
+    background-image:url(img/layout.jpeg);
+    background-size: cover;
+    width: 50%;
+    height: 90vh;
+}
