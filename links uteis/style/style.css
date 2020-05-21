@@ -1,34 +1,40 @@
-/* Desktop first */
-
+/* design font  */
 * {
     font-family:'Roboto', sans-serif;
 }
-
+ /* nav css */
 a:hover {
     color: red;
     font-weight: bold;
 }
 
-/* .link-red {
-    color: #fd0002;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #fd0002;
-} */
-
 .color-red {
-    color: #fd0002;
+    color: #fd0002;   
     text-decoration: none;
 }
-/* 
-li {
-    list-style: none;
-} */
 
+.icon-size {
+    height: 5vh;
+}
 
+#menu-mobile {
+    display: none;
+}
 
-.tamanhoImg {
-    /* align-items: flex-end; */
-    width: 100px;
-    height: 100px;
+/* section --> div com img das mulheres */
+.pattern {
+    background-image: url(../img/pattern-link.jpeg);
+    background-size: cover;
+    width: 45%;
+    height: 90vh;
+}
+
+/* nav responsiva */
+@media screen and (max-width: 775px) {
+    #menu-mobile {
+        display: flex;
+    }
+    #menu-desktop {
+        display: none;
+    }
 }
