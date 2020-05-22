@@ -23,9 +23,9 @@ a:hover {
 
 /* section --> div com img das mulheres */
 .pattern {
-    background-image: url(../img/pattern-link.jpeg);
+    background-image: url(../img/pattern-link.jpeg) ;
     background-size: cover;
-    width: 48%;
+    width: 45%;
     height: 90vh;
 }
 
