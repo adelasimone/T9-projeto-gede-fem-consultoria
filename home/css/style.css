@@ -23,7 +23,7 @@ a:hover {
 /* header & body css */
 body {
     background-image: url(../img/imagem-home.jpeg);
-    background-color: #740ca5;
+    background-color: beige;
     background-repeat: no-repeat;
     background-position: 50% 10vh; 
     background-size: contain;
