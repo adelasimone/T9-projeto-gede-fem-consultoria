@@ -1,0 +1,50 @@
+/* --- DESKTOP FIRST --- */
+
+/* design font  */
+* {
+    font-family:'Roboto', sans-serif;
+}
+ /* nav css */
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.color-red {
+    color: #fd0002;   
+    text-decoration: none;
+}
+
+.icon-size {
+    height: 5vh;
+}
+
+#menu-mobile {
+    display: none;
+}
+
+/* section --> div com img das mulheres */
+.pattern {
+    background-image: url(../img/pattern-link.jpeg) ;
+    background-size: cover;
+    width: 35%;
+    height: 90vh;
+}
+
+@media screen and (max-width: 775px) {
+    #menu-mobile {
+        display: flex;
+    }
+    #menu-desktop {
+        display: none;
+    }
+
+    .pattern{
+        width: 100%;
+        height: 150px;
+    }
+
+    .links-uteis{
+        text-align: center;
+    }
+}
