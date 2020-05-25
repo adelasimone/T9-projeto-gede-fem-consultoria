@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gede-fem-contatos</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="javascript/jquery-3.4.1.min.js"></script>
+  <script src="javascript/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav style="height: 10vh;"
+    class="navbar navbar-expand-lg bg-light d-flex flex-column flex-lg-row align-items-center justify-content-lg-around m-auto">
+    <div class="dropdown " id="menu-mobile">
+      <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Menu
+      </a>
+
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="../sobre/index.html">SOBRE GEDÊ</a>
+        <a class="dropdown-item" href="../servicos/index.html" target="_blank">SERVIÇOS</a>
+        <a class="dropdown-item" href="../linksuteis/index.html">LINKS ÚTEIS</a>
+        <a class="dropdown-item" href="#">CONTATOS</a>
+        <a class="dropdown-item" href="https://www.facebook.com/gedefem" target="_blank">FACEBOOK</a>
+        <a class="dropdown-item" href="https://www.instagram.com/gedefem/" target="_blank">INSTAGRAM</a>
+        <a class="dropdown-item" href="http://api.whatsapp.com/send?1=pt_BR&phone=5511972103914" target="_blank">WHATSAPP</a>
+      </div>
+    </div>
+    <a class="navbar-brand ml-lg-3" href="../index.html"><img style="height: 8vh;" src="img/gede-logo.png" alt="logo da Gede e link para página principal"></a>
+
+    <div class="collapse navbar-collapse d-flex flex-md-row justify-content-md-between" id="navbarNav">
+      <ul id="menu-desktop" class="navbar-nav m-lg-auto flex-md-row mr-md-5">
+        <li class="nav-item active mr-md-3">
+          <a class="color-red nav-link" href="../sobre/index.html">SOBRE GEDÊ<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mr-md-3">
+          <a class="color-red nav-link" href="../servicos/index.html" target="_blank">SERVIÇOS</a>
+        </li>
+        <li class="nav-item mr-md-3">
+          <a class="nav-link color-red" href="../linksuteis/index.html">LINKS ÚTEIS</a>
+        </li>
+        <li class="nav-item mr-md-3">
+          <a class="nav-link color-red" href="#">CONTATOS</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav d-flex align-items-center flex-row ">
+        <li id="menu-desktop" class="nav-item mr-2">
+          <a class="color-red nav-link" href="https://www.facebook.com/gedefem" target="_blank"><img class="icon-size"
+              src="img/Facebook.png" alt="link para facebook"></a>
+        </li>
+        <li id="menu-desktop" class="nav-item mr-2">
+          <a class="color-red nav-link" href="https://www.instagram.com/gedefem/" target="_blank"><img class="icon-size"
+              src="img/Instagram.png" alt="link para instagram"></a>
+        </li>
+        <li id="menu-desktop" class="nav-item pr-2">
+          <a class="color-red nav-link ml-lg-4 mr-lg-3" href="http://api.whatsapp.com/send?1=pt_BR&phone=5511972103914" target="_blank"><img class="icon-size" src="img/contato.png"
+              alt="link para whatsapp"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--CONTATO-->
+  <section class="d-flex">
+
+    <!--IMAGEM DESKTOP-->
+    <div class="img_desktop_ctt"></div>
+
+    <!--FORMULARIO-->
+    <form>
+      <!--IMAGEM Responsiva-->
+      <div class="img_ctt_responsiva"></div>
+      <h1 class="color-red font-weight-bold">Contato</h1>
+      <div class="m-5">
+        <div class="row">
+          <div class="col">
+            <label>
+              <p>
+                Nome:
+              </p>
+              <input type="text" name="_nome">
+            </label>
+          </div>
+
+          <div class="col">
+            <label>
+              <p>
+                Email:
+              </p>
+              <input type="email" name="_email">
+            </label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <label>
+              <p>
+                Telefone:
+              </p>
+              <input type="tel" name="_tel">
+            </label>
+          </div>
+
+          <div class="col">
+            <label>
+              <p>
+                Assunto:
+              </p>
+              <select>
+                <option value="orcamento">Orçamento</option>
+                <option value="duvidas">Dúvidas</option>
+                <option value="faca">Faça parte</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <label>
+            <p>
+              Mensagem:
+            </p>
+            <div>
+              <textarea class="" name="message" placeholder="Digite a sua mensagem aqui."></textarea>
+            </div>
+          </label>
+        </div>
+        <div class="div_btn d-flex justify-content-end">
+          <button type="button" class="btn_form">Enviar</button>
+        </div>
+      </div>
+      </div>
+    </form>
+  </section>
+
+  <div class="div_midias">
+    <a href="https://www.facebook.com/gedefem" target="_blank"><img src="img/Facebook.png"
+        alt="icone logo facebook vermelho"></a>
+    <a href="https://www.instagram.com/gedefem/" target="_blank"><img src="img/Instagram.png"
+        alt="icone logo do instagram vermelho"></a>
+    <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511972103914" target="_blank"
+      alt="icone logo do whatsapp vermelho"><img src="img/contato.png"></a>
+  </div>
+</body>
+
+</html>
