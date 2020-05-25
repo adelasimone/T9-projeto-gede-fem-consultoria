@@ -21,6 +21,17 @@ a:hover {
     display: none;
 }
     
+.layout {
+    background-image:url(img/layout.jpeg);
+    background-size: cover;
+    width: 50%;
+    height: 90vh;
+}
+
+.card-img-top {
+    width: 25%;
+}
+
 /* nav responsiva */
 @media screen and (max-width: 775px) {
     #menu-mobile {
@@ -31,9 +42,3 @@ a:hover {
     }
 }
 
-.layout {
-    background-image:url(img/layout.jpeg);
-    background-size: cover;
-    width: 50%;
-    height: 90vh;
-}
